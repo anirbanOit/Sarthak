@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">DemoProject</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="dob">DOB:</string>
+    <string name="mm_dd_yy">MM/DD/YY</string>
+    <string name="dept">dept</string>
+    <string name="Dept">Dept:</string>
+    <string name="btn_text">Add</string>
+    <string name="preview">Preview</string>
+    <string-array name="departments">
+        <item>Select Department</item>
+        <item>Mobility</item>
+        <item>IOS</item>
+        <item>QA</item>
+        <item>Android</item>
+        <item>PHP</item>
+        <item>Dot Net</item>
+        <item>UI</item>
+        <item>Salesforce</item>
+    </string-array>
+</resources>

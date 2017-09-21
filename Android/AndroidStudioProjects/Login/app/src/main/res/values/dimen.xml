@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="padding">12dp</dimen>
+    <dimen name="indeterminate_progress_size">32dp</dimen>
+    <dimen name="textviewsize">50dp</dimen>
+    <dimen name="margin_top">20dp</dimen>
+    <dimen name="margin_bottom">10dp</dimen>
+    <dimen name="margin_left">20dp</dimen>
+    <dimen name="margin_right">20dp</dimen>
+    <dimen name="button">50dp</dimen>
+    <dimen name="buttonsize">20dp</dimen>
+
+
+</resources>

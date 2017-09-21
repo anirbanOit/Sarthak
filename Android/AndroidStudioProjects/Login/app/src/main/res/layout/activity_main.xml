@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.oit.test.login.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_page"
+        android:textSize="@dimen/textviewsize" />
+
+
+    <EditText
+        android:id="@+id/email_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_bottom"
+        android:layout_marginLeft="@dimen/margin_left"
+        android:layout_marginRight="@dimen/margin_right"
+        android:layout_marginTop="@dimen/margin_top"
+        android:background="@color/textback"
+        android:drawableLeft="@drawable/mail"
+        android:drawablePadding="@dimen/padding"
+        android:hint="@string/e_mail"
+        android:inputType="textEmailAddress"
+        android:padding="@dimen/padding"
+         />
+
+    <EditText
+        android:id="@+id/password_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_bottom"
+        android:layout_marginLeft="@dimen/margin_left"
+        android:layout_marginRight="@dimen/margin_right"
+        android:layout_marginTop="@dimen/margin_top"
+        android:background="@color/textback"
+        android:drawableLeft="@drawable/lockkers"
+        android:drawablePadding="@dimen/padding"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:padding="@dimen/padding"
+       />
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/button"
+        android:layout_marginRight="@dimen/button"
+        android:gravity="center"
+        android:padding="@dimen/padding"
+        android:text="@string/login_in"
+        android:textAlignment="center"
+        android:textSize="@dimen/buttonsize" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/gmailSignIn_btn"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"></com.google.android.gms.common.SignInButton>
+
+</LinearLayout>
